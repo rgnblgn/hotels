@@ -1,0 +1,36 @@
+.home-page-container{
+    width: 1180px;
+    margin: 0 auto;
+    select{
+        width: 500px;
+        height: 50px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    a{
+        margin-top: 30px;
+        padding: 15px 10px 20px 10px;
+        float: right;
+        text-decoration: none;
+        color: white;
+        background-color: blue;
+    }
+    .date-person{
+        width: 100%;
+        margin: 20px auto;
+        span{
+            display: block;
+        }
+        input{
+            width: 200px;
+        }
+        .date{
+            float: left;
+            width: 24%;
+            height: 70px;
+            border: 1px solid black;
+        }
+    }
+}
+

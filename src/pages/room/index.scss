@@ -1,0 +1,70 @@
+
+
+.room-container{
+    width: 1180px;
+    margin: 0 auto;
+    .view-select {
+        margin-top: 30px;
+    }
+
+        label {
+            cursor: pointer;
+            float: left;
+            width: 300px;
+            height: 300px;
+            margin-right: 20px;
+            border: 1px solid transparent;
+            img{
+                width: 300px;
+                height: 150px;
+            }
+            &:nth-child(3){
+                margin-right: 0;
+            }
+            &:nth-child(1){
+                margin-left: 0;
+            }
+            &.selected{
+                border: 1px solid black;
+            }
+    }
+    .user-detail, .room-select,.view-select, .footer {
+        margin: 0 auto;
+
+    }
+    .user-detail{
+        width: 100%;
+        height: 100px;
+    }
+    .room-select,.view-select{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background: aliceblue;
+        a{
+            padding: 15px 10px 20px 10px;
+            text-decoration: none;
+            color: white;
+            background-color: royalblue;
+            width: 100px;
+            border-radius: 10px;
+        }
+    }
+}
+
+
+
+input[type=radio]{
+    appearance: none;
+}
+
